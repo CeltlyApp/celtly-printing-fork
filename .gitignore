@@ -1,0 +1,24 @@
+# Build/cache and workstation artifacts
+.dart_tool/
+.packages
+build/
+**/Pods/
+**/.symlinks/
+**/DerivedData/
+.idea/
+.vscode/
+.DS_Store
+pubspec.lock
+android/local.properties
+*.iml
+# No credentials, signing material or environment secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.mobileprovision
+*.provisionprofile
